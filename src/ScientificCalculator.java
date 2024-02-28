@@ -94,7 +94,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
             }
         });
 
-        jButton12.setText("jButton1");
+        jButton12.setText("2");
 
         jButton13.setText("1");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
