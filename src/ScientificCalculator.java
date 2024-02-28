@@ -88,7 +88,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
         jButton13.setText("jButton1");
 
-        jButton14.setText("jButton1");
+        jButton14.setText("8");
 
         jButton15.setText("jButton1");
 
