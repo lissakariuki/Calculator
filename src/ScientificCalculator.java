@@ -74,13 +74,13 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
         jButton6.setText("*");
 
-        jButton7.setText("jButton1");
+        jButton7.setText("9");
 
         jButton8.setText("+");
 
         jButton9.setText("jButton1");
 
-        jButton10.setText("jButton1");
+        jButton10.setText("4");
 
         jButton11.setText("jButton1");
 
