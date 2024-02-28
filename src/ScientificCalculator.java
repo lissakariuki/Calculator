@@ -51,8 +51,6 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTextField1.setText("jTextField1");
-
         jRadioButton1.setText("ON");
 
         jRadioButton2.setText("OFF");
@@ -111,7 +109,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
         jButton17.setText("jButton1");
 
-        jButton18.setText("jButton1");
+        jButton18.setText("3");
 
         jButton19.setText("=");
 
