@@ -87,6 +87,11 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton8.setText("+");
 
         jButton9.setText("6");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
         jButton10.setText("4");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -290,6 +295,10 @@ public class ScientificCalculator extends javax.swing.JFrame {
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
        TextField.setText(TextField.getText() + "4"); // TODO add your handling code here:
     }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        TextField.setText(TextField.getText() + "6" );// TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
      * @param args the command line arguments
