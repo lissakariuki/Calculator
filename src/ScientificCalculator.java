@@ -150,6 +150,11 @@ public class ScientificCalculator extends javax.swing.JFrame {
         });
 
         jButton18.setText("3");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
         jButton19.setText("=");
 
@@ -308,6 +313,10 @@ public class ScientificCalculator extends javax.swing.JFrame {
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         TextField.setText(TextField.getText() + "2");
     }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        TextField.setText(TextField.getText() + "3");
+    }//GEN-LAST:event_jButton18ActionPerformed
 
     /**
      * @param args the command line arguments
