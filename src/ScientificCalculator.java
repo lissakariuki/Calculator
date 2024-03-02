@@ -8,14 +8,20 @@
  * @author Lissa Kariuki
  */
 public class ScientificCalculator extends javax.swing.JFrame {
-
+    double num,ans;
+    int calculation;
     /**
      * Creates new form ScientificCalculator
      */
     public ScientificCalculator() {
         initComponents();
     }
-
+    public void arithmetic_operation() {
+    
+    
+    
+    
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -358,7 +364,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        TextField.setText(TextField.getText() + "  ");
+        TextField.setText( "");
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
