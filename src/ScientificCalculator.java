@@ -31,6 +31,10 @@ public class ScientificCalculator extends javax.swing.JFrame {
                ans=num * Double.parseDouble(TextField.getText());
                TextField.setText(Double.toString(ans));
                break;
+           case 4:
+               ans=num / Double.parseDouble(TextField.getText());
+               TextField.setText(Double.toString(ans));
+               break;
        }
     
     
