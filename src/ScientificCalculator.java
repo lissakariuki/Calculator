@@ -23,7 +23,10 @@ public class ScientificCalculator extends javax.swing.JFrame {
                ans=num + Double.parseDouble(TextField.getText());
                TextField.setText(Double.toString(ans));
                break;
-                      
+           case 2:
+               ans=num - Double.parseDouble(TextField.getText());
+               TextField.setText(Double.toString(ans));
+               break;           
        }
     
     
