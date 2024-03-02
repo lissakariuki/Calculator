@@ -16,8 +16,15 @@ public class ScientificCalculator extends javax.swing.JFrame {
     public ScientificCalculator() {
         initComponents();
     }
-    public void arithmetic_operation() {
-    
+    public void arithmetic_operation()
+    {
+       switch (calculation){
+           case 1:
+               ans=num + Double.parseDouble(TextField.getText());
+               TextField.setText(Double.toString(ans));
+               break;
+                      
+       }
     
     
     
