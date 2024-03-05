@@ -25,6 +25,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton2.setEnabled(false);
         jButton3.setEnabled(false);
         jButton4.setEnabled(false);
+        jButton5.setEnabled(false);
         
         
     }
