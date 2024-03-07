@@ -16,6 +16,35 @@ public class ScientificCalculator extends javax.swing.JFrame {
     public ScientificCalculator() {
         initComponents();
     }
+    
+    public void disable()
+    {
+        TextField.setEnabled(false);
+        
+        jButton1.setEnabled(false);
+        jButton2.setEnabled(false);
+        jButton3.setEnabled(false);
+        jButton4.setEnabled(false);
+        jButton5.setEnabled(false);
+        jButton6.setEnabled(false);
+        jButton7.setEnabled(false);
+        jButton8.setEnabled(false);
+        jButton9.setEnabled(false);
+        jButton10.setEnabled(false);
+        jButton11.setEnabled(false);
+        jButton12.setEnabled(false);
+        jButton13.setEnabled(false);
+        jButton14.setEnabled(false);
+        jButton15.setEnabled(false);
+        jButton16.setEnabled(false);
+        jButton17.setEnabled(false);
+        jButton18.setEnabled(false);
+        jButton19.setEnabled(false);
+        
+        
+    }
+    
+    
     public void arithmetic_operation()
     {
        switch (calculation){
@@ -334,7 +363,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
@@ -350,7 +379,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        TextField.setText(TextField.getText() + "00"); 
+          TextField.setText(TextField.getText() + "00"); 
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -378,7 +407,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        TextField.setText(TextField.getText() + " = ");
+       
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
