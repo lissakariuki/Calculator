@@ -22,6 +22,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     {
        TextField.setEnabled(true); 
        
+       jButton1.setEnabled(true);
        jButton2.setEnabled(true);
     }
     
