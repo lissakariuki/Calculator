@@ -468,7 +468,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        // TODO add your handling code here:
+       enable();  //call enable method
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     /**
