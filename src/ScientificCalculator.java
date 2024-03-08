@@ -18,6 +18,10 @@ public class ScientificCalculator extends javax.swing.JFrame {
     
     jRadioButton1.setEnabled(false);
     }
+    public void enable()
+    {
+       TextField.setEnabled(true); 
+    }
     
     public void disable()
     {
