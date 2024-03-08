@@ -39,7 +39,6 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton16.setEnabled(false);
         jButton17.setEnabled(false);
         jButton18.setEnabled(false);
-        
         jButton19.setEnabled(false);
         jButton20.setEnabled(false);
         
@@ -365,7 +364,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        
+            disable(); //call disable method      
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
