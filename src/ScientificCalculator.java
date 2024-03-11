@@ -487,6 +487,12 @@ public class ScientificCalculator extends javax.swing.JFrame {
         int length=TextField.getText().length();
     //declare variable number and set length as -1    
         int number = TextField.getText().length();
+        
+        if (length > 0)
+        {
+            StringBuilder back=new StringBuilder(TextField.getText());
+            back.deleteCharAt(number);
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**g
