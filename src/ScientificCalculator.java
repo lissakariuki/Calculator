@@ -486,7 +486,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
     //declare variable length
         int length=TextField.getText().length();
     //declare variable number and set length as -1    
-        int number = TextField.getText().length();
+        int number = TextField.getText().length()- 1;
         String store;
         if (length > 0)
         {
@@ -499,7 +499,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
     /**g
      * @param ars the command line arguments
-     */
+     **/
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
