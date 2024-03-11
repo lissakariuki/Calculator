@@ -485,10 +485,12 @@ public class ScientificCalculator extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     //declare variable length
         int length=TextField.getText().length();
+    //declare variable number and set length as -1    
+        int number = TextField.getText().length();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    /**
-     * @param args the command line arguments
+    /**g
+     * @param ars the command line arguments
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
