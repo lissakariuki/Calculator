@@ -493,6 +493,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
             StringBuilder back=new StringBuilder(TextField.getText());
             back.deleteCharAt(number);
             store=back.toString();
+            TextField.setText(store);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
