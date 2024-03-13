@@ -489,7 +489,11 @@ public class ScientificCalculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        TextField.setText(TextField.getText() + " - ");
+            num = Double.parseDouble(TextField.getText());
+            calculation = 2;
+            TextField.setText("");
+            jLabel1.setText(num + "-");
+        //TextField.setText(TextField.getText() + " - ");
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
