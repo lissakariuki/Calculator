@@ -492,7 +492,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
             calculation = 1;
             TextField.setText("");
             jLabel1.setText(num + "+");
-//TextField.setText(TextField.getText() + " + ");
+
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
