@@ -478,9 +478,9 @@ public class ScientificCalculator extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
             num = Double.parseDouble(TextField.getText());
-            calculation = 1;
+            calculation = 3;
             TextField.setText("");
-            jLabel1.setText(num + "+");
+            jLabel1.setText(num + "*");
             //TextField.setText(TextField.getText() + " * ");
     }//GEN-LAST:event_jButton6ActionPerformed
 
