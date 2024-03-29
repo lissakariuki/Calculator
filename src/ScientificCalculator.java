@@ -99,9 +99,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
                TextField.setText(Double.toString(ans));
                break;
        }
-    
-    
-    
+
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -500,7 +498,6 @@ public class ScientificCalculator extends javax.swing.JFrame {
             calculation = 2;
             TextField.setText("");
             jLabel1.setText(num + "-");
-        //TextField.setText(TextField.getText() + " - ");
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
